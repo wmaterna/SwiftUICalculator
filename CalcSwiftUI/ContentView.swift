@@ -17,8 +17,7 @@ struct ContentView: View {
 		["1", "2", "3", "*"],
 		["0", "=", "C", "÷"]]
 	
-	@State var finalValue:String = "6"
-	@State var expression: [String] = []
+	@State var finalValue:String = ""
 	@State var finishedTypingNumber: Bool = true
 	@State var currentSymbol: String = "+"
 	@State var prevNumber: Double = 0.0
